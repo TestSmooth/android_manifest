@@ -7,11 +7,15 @@
            fetch="git://github.com/crigio/" /> 
   <remote name="rascarlo"
            fetch="git://github.com/rascarlo/" />           
-  <default revision="refs/tags/android-4.4.4_r1"
+  <remote name="CyanogenMod"
+           fetch="https://github.com/CyanogenMod/" />
+  <remote  name="github"
+            fetch="https://github.com"/>         
+  <default revision="refs/tags/android-4.4.4_r2"      
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="CriGio" revision="smoothtest" >
+  <project path="build" name="android_build" groups="pdk" remote="crigio" revision="smoothtest" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
   </project>
