@@ -9,7 +9,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" groups="pdk" remote="rascarlo" revision="kk-ras-mr4_r1" >
+  <project path="build" name="android_build" groups="pdk" remote="CriGio" revision="kk-ras-mr4_r1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="lazyAll.sh" dest="lazyAll.sh" />
   </project>
