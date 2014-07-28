@@ -3,8 +3,8 @@
 
   <remote  name="aosp"
            fetch="https://android-review.googlesource.com/" />
-  <remote name="rascarlo"
-           fetch="git://github.com/rascarlo/" /> 
+  <remote name="crigio"
+           fetch="git://github.com/crigio/" /> 
   <default revision="refs/tags/android-4.4.4_r1"
            remote="aosp"
            sync-j="4" />
